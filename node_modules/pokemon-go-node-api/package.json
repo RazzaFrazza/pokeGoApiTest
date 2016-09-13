@@ -1,0 +1,67 @@
+{
+  "name": "pokemon-go-node-api",
+  "version": "1.3.5",
+  "description": "Pokemon GO node.js module",
+  "author": {
+    "name": "Arm4x"
+  },
+  "license": "MIT",
+  "main": "poke.io.js",
+  "dependencies": {
+    "events": "^1.1.1",
+    "geocoder": "^0.2.2",
+    "gpsoauthnode": "^0.0.5",
+    "istanbul": "^0.4.4",
+    "long": "^3.2.0",
+    "node-pogo-signature": "^2.0.0",
+    "protobufjs": "^5.0.1",
+    "request": "^2.73.0",
+    "s2-geometry": "^1.2.7",
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/tape/bin/tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armax/Pokemon-GO-node-api.git"
+  },
+  "keywords": [
+    "pokemon",
+    "go",
+    "api",
+    "node",
+    "pokemon-go",
+    "niantic"
+  ],
+  "gitHead": "b97342c87ba230bf31f561845a6db4a5e9a8396e",
+  "bugs": {
+    "url": "https://github.com/Armax/Pokemon-GO-node-api/issues"
+  },
+  "homepage": "https://github.com/Armax/Pokemon-GO-node-api#readme",
+  "_id": "pokemon-go-node-api@1.3.5",
+  "_shasum": "057e752f71ae38461b017b69aef043d5e9907d35",
+  "_from": "pokemon-go-node-api@latest",
+  "_npmVersion": "3.9.3",
+  "_nodeVersion": "6.2.1",
+  "_npmUser": {
+    "name": "arm4x",
+    "email": "marcocuci@gmail.com"
+  },
+  "dist": {
+    "shasum": "057e752f71ae38461b017b69aef043d5e9907d35",
+    "tarball": "https://registry.npmjs.org/pokemon-go-node-api/-/pokemon-go-node-api-1.3.5.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "arm4x",
+      "email": "marcocuci@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/pokemon-go-node-api-1.3.5.tgz_1470866274075_0.10581045737490058"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/pokemon-go-node-api/-/pokemon-go-node-api-1.3.5.tgz"
+}
