@@ -52,6 +52,8 @@ class AuthController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|confirmed|min:6',
+            'pokego_username' => 'required|max:64',
+            'pokego_password' => 'required|confirmed|min:8',
         ]);
     }
 
@@ -67,6 +69,8 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'pokego_username' => $data['pokego_username'],
+            'pokego_password' => bcrypt($data['pokego_password']),
         ]);
     }
 }

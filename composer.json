@@ -4,10 +4,14 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-	"get-stream/stream-laravel": "~2.2.6"
+	"get-stream/stream-laravel": "~2.2.6",
+        "nicklasw/pkm-go-api": "dev-master",
+        "laravel/socialite": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

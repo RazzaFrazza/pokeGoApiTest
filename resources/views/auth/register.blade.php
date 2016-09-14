@@ -66,6 +66,40 @@
                             </div>
                         </div>
 
+                        <div class="form-group{{ $errors->has('pokego_username') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Google Username</label>
+                            <div class="col-md-6">
+                                <input type="username" class="form-control" name="pokego_username">
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('pokego_password') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Google Password</label>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control" name="pokego_password">
+                            
+
+                                @if ($errors->has('pokego_password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('pokego_password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                         <div class="form-group{{ $errors->has('pokego_password') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Confirm Google Password</label>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control" name="pokego_password_confirmation">
+
+                                  @if ($errors->has('pokego_password_confirmation'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('pokego_password_confirmation') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">

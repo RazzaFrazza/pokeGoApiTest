@@ -33,6 +33,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/follow', 'FollowController@store');
     Route::delete('/follow/{follow}', 'FollowController@destroy');
 
+    //Profile
+    Route::get('/profile', 'pokemonController@run'); 
 
     // Tasks
     Route::get('/tasks', 'TaskController@index');
