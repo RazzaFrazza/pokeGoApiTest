@@ -24,7 +24,7 @@ return array(
     'd33992813bf927e5b1201c93dbf7b802' => $vendorDir . '/nicklasw/pogoprotos-php/src/POGOProtos/Networking/Responses/UpgradePokemonResponse.php',
     'decc78cc4436b1292c6c0d151b19445c' => $vendorDir . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     'bbf73f3db644d3dced353b837903e74c' => $vendorDir . '/php-di/php-di/src/DI/functions.php',
+    'ed6331976a37c03a39d1e0688e5e671e' => $vendorDir . '/nicklasw/pkm-go-api/includes/config.php',
     'f0906e6318348a765ffb6eb24e0d0938' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
     '58571171fd5812e6e447dce228f52f4d' => $vendorDir . '/laravel/framework/src/Illuminate/Support/helpers.php',
-    'ed6331976a37c03a39d1e0688e5e671e' => $vendorDir . '/nicklasw/pkm-go-api/includes/config.php',
 );

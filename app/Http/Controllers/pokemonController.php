@@ -9,8 +9,10 @@ require __DIR__ . '../../../../vendor/autoload.php';
 use App\Http\Requests;
 use Auth;
 
+use NicklasW\PkmGoApi\Authentication\AccessToken;
 use NicklasW\PkmGoApi\Authentication\Config\Config;
 use NicklasW\PkmGoApi\Authentication\Factory\Factory;
+use NicklasW\PkmGoApi\Authentication\Manager;
 use NicklasW\PkmGoApi\Kernels\ApplicationKernel;
 
 class pokemonController extends Controller

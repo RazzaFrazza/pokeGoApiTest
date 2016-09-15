@@ -25,9 +25,9 @@ class ComposerStaticInitf2cd143d7a88010dc0a311f0a79490a1
         'd33992813bf927e5b1201c93dbf7b802' => __DIR__ . '/..' . '/nicklasw/pogoprotos-php/src/POGOProtos/Networking/Responses/UpgradePokemonResponse.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         'bbf73f3db644d3dced353b837903e74c' => __DIR__ . '/..' . '/php-di/php-di/src/DI/functions.php',
+        'ed6331976a37c03a39d1e0688e5e671e' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/includes/config.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
-        'ed6331976a37c03a39d1e0688e5e671e' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/includes/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -1735,6 +1735,8 @@ class ComposerStaticInitf2cd143d7a88010dc0a311f0a79490a1
         'League\\Flysystem\\PluginInterface' => __DIR__ . '/..' . '/league/flysystem/src/PluginInterface.php',
         'League\\Flysystem\\Plugin\\AbstractPlugin' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/AbstractPlugin.php',
         'League\\Flysystem\\Plugin\\EmptyDir' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/EmptyDir.php',
+        'League\\Flysystem\\Plugin\\ForcedCopy' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/ForcedCopy.php',
+        'League\\Flysystem\\Plugin\\ForcedRename' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/ForcedRename.php',
         'League\\Flysystem\\Plugin\\GetWithMetadata' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/GetWithMetadata.php',
         'League\\Flysystem\\Plugin\\ListFiles' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/ListFiles.php',
         'League\\Flysystem\\Plugin\\ListPaths' => __DIR__ . '/..' . '/league/flysystem/src/Plugin/ListPaths.php',
@@ -2017,7 +2019,6 @@ class ComposerStaticInitf2cd143d7a88010dc0a311f0a79490a1
         'NicklasW\\PkmGoApi\\Authentication\\Managers\\PTC\\AuthenticationCredentials\\Parsers\\TicketParser' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Authentication/Managers/PTC/AuthenticationCredentials/Parsers/TicketParser.php',
         'NicklasW\\PkmGoApi\\Authentication\\Managers\\PTC\\AuthenticationCredentials\\Parsers\\TokenParser' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Authentication/Managers/PTC/AuthenticationCredentials/Parsers/TokenParser.php',
         'NicklasW\\PkmGoApi\\Authentication\\Managers\\PTC\\AuthenticationOauthTokenManager' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Authentication/Managers/PTC/AuthenticationOauthTokenManager.php',
-        'NicklasW\\PkmGoApi\\Clients\\Proxies\\ClientProxy' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Clients/Proxies/ClientProxy.php',
         'NicklasW\\PkmGoApi\\Facades\\App' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Facades/App.php',
         'NicklasW\\PkmGoApi\\Facades\\Log' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Facades/Log.php',
         'NicklasW\\PkmGoApi\\Handlers\\RequestHandler' => __DIR__ . '/..' . '/nicklasw/pkm-go-api/src/Handlers/RequestHandler.php',
